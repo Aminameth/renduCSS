@@ -1,9 +1,112 @@
-img{
-    width: 50px;
+#logo{
+    width: 90px;
+    border-radius: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 nav{
     background-color: bisque;
-}
-header{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    
     
 }
+p{
+    margin-top: 50px;
+    font-family: "Bona Nova SC", serif;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-shadow: 2px -2px whitesmoke;
+    box-shadow:  0px 10px 23px rgba(0,0,0,.2);
+    
+}
+header{
+    background-color: rgb(75, 142, 147);
+    
+    
+}
+h2{
+    font-family: "Bona Nova SC", serif;
+    margin-left: 30px;
+}
+.dividedsection{
+  display: flex;
+   
+}
+.dividedsection div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+body{
+    margin: 0px; 
+    background-color: rgb(245, 234, 220);
+
+}
+.dividedsection img{
+    height: 200px;
+    
+    
+}
+#btnsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(216, 184, 245);
+    border-radius: 20px;
+    font-family: "Fira Sans", sans-serif;
+    box-shadow: 2px 2px 5px rgb(177, 169, 169);
+
+}
+footer{
+    background-color:rgb(240, 218, 192);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.lienreseaux{
+    width: 40px;
+}
+#adresse{
+    margin-top: 90px;
+}
+
+#titrepage2{
+    font-family: "Bona Nova SC", serif;
+}
+#imgcafbeige{
+    height: 280px;
+    width: 190px;
+}
+.secsimple{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.secsimple p {
+       display: flex;
+       flex-direction: row;
+}
+
+
+
+
+
